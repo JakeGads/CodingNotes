@@ -1,0 +1,139 @@
+<!--
+    Tag
+        pairs start and end( <h1>, </h1>)
+    LineBreak <br> or <br />
+
+    <head> holds page info (title, links)
+    <body> what is displayed
+    <!DOCTYPE <>> defines what HTML version should be displayed
+
+
+-->
+
+<!--
+    Attributes allow you to further define by giving a key value pair and is defined at the start tag
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        HTML Cheat Sheat
+    </title>
+</head>
+
+<body>
+    <!-- Headings-->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+
+    <!--Paragraph-->
+    <p>
+        <!--
+                <em> emphisis
+                <a> link to another location requires an href
+                    targer = __blank will send it to a seperate tab
+            -->
+        <em> Lorem ipsum dolor </em>,
+        <a href="http://google.com" target="_blank">sit amet consectetur</a> adipisicing elit. Repudiandae at dolore voluptates tenetur sunt reprehenderit quas, earum illo quibusdam quidem, consectetur blanditiis mollitia natus debitis, dolor esse adipisci
+        expedita et!
+    </p>
+
+    <!--
+            Inline Elements - Do not start a new line and only take the necessary width
+            Block Elements - take up a new line and take all avalaible width
+        -->
+
+    <!--
+        List
+        <ul> unordered List
+            <li> List Item
+        <ol> adds number to a list
+    -->
+
+    <ul>
+        <li>List Item 1</li>
+        <li>Lits Item 2</li>
+    </ul>
+
+    <ol>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+    </ol>
+
+
+    <!--
+        Table
+    <thead> table head
+    <tbody> table Body
+    <tr> table Row 
+        <th> Table Row Header
+    -->
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jake</td>
+                <td>jake.gads@gmail.com</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Jake</td>
+                <td>jake.gads@gmail.com</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Jake</td>
+                <td>jake.gads@gmail.com</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <!--Creates a Horozontal line-->
+    <br>
+    <!-- Forms -->
+    <form action='process.php' , method="POST">
+        <label> First Name </label>
+        <input type="Text" name="firstName">
+        <label> Last Name </label>
+        <input type="Text" name="lastName">
+        <label>Email</label>
+        <input type="email" name="Email">
+        <textarea name="message">
+            
+        </textarea>
+    </form>
+
+    <br>
+    <hr>
+    <br>
+
+    <form action='process.php' , method="POST">
+        <div>
+            <label> First Name </label>
+            <input type="Text" name="firstName">
+        </div>
+        <br>
+
+        <div>
+            <label> Last Name </label>
+            <input type="Text" name="lastName">
+        </div>
+    </form>
+
+    <br>
+    <br>
+
+    <label>Gender</label>
+
+</body>
+
+</html>
